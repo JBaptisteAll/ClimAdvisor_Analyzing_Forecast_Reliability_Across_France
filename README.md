@@ -66,7 +66,7 @@ fig.show()
 
 **Output:**
 
-![Rain_Probability](Assets\Rain_Prob_gif.gif)
+![Rain_Probability](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/Rain_Prob_gif.gif)
 
 ---
 ### Evolution of Average Weather Indicators (National Level)
@@ -137,7 +137,7 @@ plt.tight_layout(rect=[0, 0, 1, 0.95])
 plt.show()
 ```
 Output:
-![Rain_Probability](Assets\Weather_indicator.png)
+![Rain_Probability](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/Weather_indicator.png)
 
 This chart highlights how significantly weather indicators can fluctuate within just a 
 few days. For instance, even over a 4- to 5-day range, we notice that the average 
@@ -232,7 +232,7 @@ fig.show()
 **Output:** 
 Below is a comparison of the 25 most and least accurate cities regarding weather forecasts, plotted on an interactive map.
 
-![Rain_Probability](Assets\newplot.png)
+![Rain_Probability](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/newplot.png)
 ---
 
 ## 📊 Power BI Dashboard – Visual Examples
@@ -241,10 +241,10 @@ You can explore weather metrics, errors, and city comparisons interactively thro
 
 | Visual | Screenshot |
 |--------|------------|
-| **Dashboard** | ![Dashboard](Assets\Dashboard.png) |
-| **France Overview** | ![Overview](Assets\Overview.png) |
-| **Prediction Vs Reality** | ![Expected](Assets\PredictVsReal.png) |
-| **Forecast Comparison** | ![Accuracy](Assets\Compare.png) |
+| **Dashboard** | ![Dashboard](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/Dashboard.png) |
+| **France Overview** | ![Overview](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/Overview.png) |
+| **Prediction Vs Reality** | ![Expected](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/PredictVsReal.png) |
+| **Forecast Comparison** | ![Accuracy](https://github.com/JBaptisteAll/ClimAdvisor_Analyzing_Forecast_Reliability_Across_France/blob/main/Assets/Compare.png) |
 
 To compare city or event time period between one and another.
 
