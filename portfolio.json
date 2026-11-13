@@ -1,0 +1,29 @@
+{
+  "id": "p_climadvisor",
+  "order": 150,
+  "label": "CLIMADVISOR",
+  "kanji": "予",
+  "year": "2025",
+  "title_fr": "ClimAdvisor",
+  "title_en": "ClimAdvisor",
+  "summary_fr": "Analyse de la fiabilité des prévisions météo à 5 jours sur les villes françaises : prévu contre observé, avec un tableau de bord Power BI.",
+  "summary_en": "Analysis of 5-day weather forecast reliability across French cities: forecast versus observed, with a Power BI dashboard.",
+  "body_fr": "Une prévision météo à 5 jours vaut-elle quelque chose ? C'est la question de ce projet, qui réutilise les données collectées par France Adventure Planner.\n\nJ'ai comparé en Python les prévisions de l'API OpenWeatherMap aux valeurs réellement observées, jour par jour de J+1 à J+5 : température, humidité, probabilité de pluie et score météo. Un tableau de bord **Power BI**, avec des mesures **DAX**, permet d'explorer la précision dans le temps et de repérer les villes les plus et les moins fiables.\n\nLe code Python et les mesures DAX sont réutilisables pour refaire l'analyse sur de nouvelles données.",
+  "body_en": "Is a 5-day weather forecast worth anything? That is the question behind this project, which reuses the data collected by France Adventure Planner.\n\nIn Python, I compared OpenWeatherMap API forecasts with the values actually observed, day by day from D+1 to D+5: temperature, humidity, rain probability and weather score. A **Power BI** dashboard, with **DAX** measures, lets you explore accuracy over time and spot the most and least reliable cities.\n\nThe Python code and DAX measures are reusable to run the analysis again on new data.",
+  "metrics": [
+    {
+      "label": "horizon",
+      "value": "5 jours"
+    },
+    {
+      "label": "source",
+      "value": "OpenWeatherMap"
+    },
+    {
+      "label": "restitution",
+      "value": "Power BI"
+    }
+  ],
+  "mermaid": "flowchart LR\n  F[Prévisions J+1 à J+5] --> P[Python Pandas]\n  O[Météo observée] --> P\n  P --> C[Écarts prévu et observé]\n  C --> PBI[Power BI et DAX]",
+  "bot_description": "Analyse de la fiabilité des prévisions météo à 5 jours sur les villes françaises : comparaison prévu contre observé en Python, puis tableau de bord Power BI avec mesures DAX pour repérer les villes les plus et les moins fiables."
+}
